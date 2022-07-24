@@ -1,7 +1,7 @@
 <?php
 
-use SebastiaanLuca\AutoMorphMap\Constants\CaseTypes;
-use SebastiaanLuca\AutoMorphMap\Constants\NamingSchemes;
+use LeandroDiogenes\AutoMorphMap\Constants\CaseTypes;
+use LeandroDiogenes\AutoMorphMap\Constants\NamingSchemes;
 
 return [
 

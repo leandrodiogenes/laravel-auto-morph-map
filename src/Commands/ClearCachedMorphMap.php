@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Commands;
+namespace LeandroDiogenes\AutoMorphMap\Commands;
 
 use Illuminate\Console\Command;
-use SebastiaanLuca\AutoMorphMap\Mapper;
+use LeandroDiogenes\AutoMorphMap\Mapper;
 
 class ClearCachedMorphMap extends Command
 {
@@ -24,14 +24,14 @@ class ClearCachedMorphMap extends Command
     protected $description = 'Remove the morph map cache file';
 
     /**
-     * @var \SebastiaanLuca\AutoMorphMap\Mapper
+     * @var \LeandroDiogenes\AutoMorphMap\Mapper
      */
     private $mapper;
 
     /**
      * Create a new command instance.
      *
-     * @param \SebastiaanLuca\AutoMorphMap\Mapper $mapper
+     * @param \LeandroDiogenes\AutoMorphMap\Mapper $mapper
      */
     public function __construct(Mapper $mapper)
     {

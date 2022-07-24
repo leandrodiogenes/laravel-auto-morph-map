@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap;
+namespace LeandroDiogenes\AutoMorphMap;
 
 use Illuminate\Support\ServiceProvider;
-use SebastiaanLuca\AutoMorphMap\Commands\CacheMorphMap;
-use SebastiaanLuca\AutoMorphMap\Commands\ClearCachedMorphMap;
+use LeandroDiogenes\AutoMorphMap\Commands\CacheMorphMap;
+use LeandroDiogenes\AutoMorphMap\Commands\ClearCachedMorphMap;
 
 class AutoMorphMapServiceProvider extends ServiceProvider
 {

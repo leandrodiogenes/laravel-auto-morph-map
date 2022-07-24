@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Tests;
+namespace LeandroDiogenes\AutoMorphMap\Tests;
 
 use Illuminate\Filesystem\Filesystem;
 use Orchestra\Testbench\TestCase as BaseTestCase;

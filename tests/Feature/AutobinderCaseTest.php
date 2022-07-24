@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Tests\Feature;
+namespace LeandroDiogenes\AutoMorphMap\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Mockery\MockInterface;
-use SebastiaanLuca\AutoMorphMap\Constants\CaseTypes;
-use SebastiaanLuca\AutoMorphMap\Mapper;
-use SebastiaanLuca\AutoMorphMap\Tests\MocksInstances;
-use SebastiaanLuca\AutoMorphMap\Tests\TestCase;
+use LeandroDiogenes\AutoMorphMap\Constants\CaseTypes;
+use LeandroDiogenes\AutoMorphMap\Mapper;
+use LeandroDiogenes\AutoMorphMap\Tests\MocksInstances;
+use LeandroDiogenes\AutoMorphMap\Tests\TestCase;
 
 class AutobinderCaseTest extends TestCase
 {

@@ -130,7 +130,7 @@ to publish the configuration file.
 
 The naming scheme to use when determining the model's morph type base value. Defaults to the singular table name (automatically determined by Laravel or overridden in the model using the `$table` variable).
 
-You can change this to use the singular table name, table name, or class basename. See `\SebastiaanLuca\AutoMorphMap\Constants\NamingSchemes` for possible options.
+You can change this to use the singular table name, table name, or class basename. See `\LeandroDiogenes\AutoMorphMap\Constants\NamingSchemes` for possible options.
 
 Singular table name (default):
 
@@ -160,7 +160,7 @@ Relation::morphMap([
 
 Converts your model name (after having passed the naming scheme conversion) to a more uniform string. By default, the model's name (based on your naming scheme) is converted to *snake case*.
 
-You can change this to use snake, slug, camel, studly or no casing. See `\SebastiaanLuca\AutoMorphMap\Constants\CaseTypes` for possible options.
+You can change this to use snake, slug, camel, studly or no casing. See `\LeandroDiogenes\AutoMorphMap\Constants\CaseTypes` for possible options.
 
 Snake case (default):
 

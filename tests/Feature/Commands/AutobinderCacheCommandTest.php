@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Tests\Feature\Commands;
+namespace LeandroDiogenes\AutoMorphMap\Tests\Feature\Commands;
 
 use Illuminate\Contracts\Console\Kernel;
-use SebastiaanLuca\AutoMorphMap\Commands\CacheMorphMap;
-use SebastiaanLuca\AutoMorphMap\Tests\TestCase;
+use LeandroDiogenes\AutoMorphMap\Commands\CacheMorphMap;
+use LeandroDiogenes\AutoMorphMap\Tests\TestCase;
 
 class AutobinderCacheCommandTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Constants;
+namespace LeandroDiogenes\AutoMorphMap\Constants;
 
 class NamingSchemes
 {

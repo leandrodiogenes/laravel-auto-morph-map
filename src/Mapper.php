@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap;
+namespace LeandroDiogenes\AutoMorphMap;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use ReflectionClass;
-use SebastiaanLuca\AutoMorphMap\Constants\CaseTypes;
-use SebastiaanLuca\AutoMorphMap\Constants\NamingSchemes;
+use LeandroDiogenes\AutoMorphMap\Constants\CaseTypes;
+use LeandroDiogenes\AutoMorphMap\Constants\NamingSchemes;
 use Symfony\Component\Finder\Finder;
 
 class Mapper

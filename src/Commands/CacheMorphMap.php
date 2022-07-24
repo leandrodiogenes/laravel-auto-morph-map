@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Commands;
+namespace LeandroDiogenes\AutoMorphMap\Commands;
 
 use Illuminate\Console\Command;
-use SebastiaanLuca\AutoMorphMap\Mapper;
+use LeandroDiogenes\AutoMorphMap\Mapper;
 
 class CacheMorphMap extends Command
 {

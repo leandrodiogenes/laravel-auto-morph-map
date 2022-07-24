@@ -1,5 +1,5 @@
 {
-    "name": "sebastiaanluca/laravel-auto-morph-map",
+    "name": "leandrodiogenes/laravel-auto-morph-map",
     "type": "library",
     "description": "Automatically alias and map the polymorphic types of Eloquent models.",
     "keywords": [
@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SebastiaanLuca\\AutoMorphMap\\": "src"
+            "LeandroDiogenes\\AutoMorphMap\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SebastiaanLuca\\AutoMorphMap\\Tests\\": "tests",
+            "LeandroDiogenes\\AutoMorphMap\\Tests\\": "tests",
             "App\\": "tests/temp/app/",
             "MyModule\\": "tests/temp/modules/MyModule/",
             "MyPackage\\": "tests/temp/MyPackage/src/"
@@ -52,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SebastiaanLuca\\AutoMorphMap\\AutoMorphMapServiceProvider"
+                "LeandroDiogenes\\AutoMorphMap\\AutoMorphMapServiceProvider"
             ]
         }
     },

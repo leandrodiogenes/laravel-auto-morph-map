@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace SebastiaanLuca\AutoMorphMap\Tests\Feature\Commands;
+namespace LeandroDiogenes\AutoMorphMap\Tests\Feature\Commands;
 
 use Illuminate\Contracts\Console\Kernel;
-use SebastiaanLuca\AutoMorphMap\Commands\ClearCachedMorphMap;
-use SebastiaanLuca\AutoMorphMap\Tests\TestCase;
+use LeandroDiogenes\AutoMorphMap\Commands\ClearCachedMorphMap;
+use LeandroDiogenes\AutoMorphMap\Tests\TestCase;
 
 class AutobinderClearCacheCommandTest extends TestCase
 {

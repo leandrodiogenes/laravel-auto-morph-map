@@ -48,7 +48,7 @@ See [Custom Polymorphic Types](https://laravel.com/docs/5.6/eloquent-relationshi
 Via Composer:
 
 ```bash
-composer require sebastiaanluca/laravel-auto-morph-map
+composer require leandrodiogenes/laravel-auto-morph-map
 ```
 
 ## How to use
@@ -130,7 +130,7 @@ to publish the configuration file.
 
 The naming scheme to use when determining the model's morph type base value. Defaults to the singular table name (automatically determined by Laravel or overridden in the model using the `$table` variable).
 
-You can change this to use the singular table name, table name, or class basename. See `\SebastiaanLuca\AutoMorphMap\Constants\NamingSchemes` for possible options.
+You can change this to use the singular table name, table name, or class basename. See `\LeandroDiogenes\AutoMorphMap\Constants\NamingSchemes` for possible options.
 
 Singular table name (default):
 

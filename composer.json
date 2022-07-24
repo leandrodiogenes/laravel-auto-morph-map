@@ -11,7 +11,7 @@
         "morph",
         "map"
     ],
-    "homepage": "https://github.com/sebastiaanluca/laravel-auto-morph-map",
+    "homepage": "https://github.com/leandrodiogenes/laravel-auto-morph-map",
     "license": "MIT",
     "authors": [
         {
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SebastiaanLuca\\AutoMorphMap\\": "src"
+            "LeandroDiogenes\\AutoMorphMap\\": "src"
         }
     },
     "autoload-dev": {

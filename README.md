@@ -48,7 +48,7 @@ See [Custom Polymorphic Types](https://laravel.com/docs/5.6/eloquent-relationshi
 Via Composer:
 
 ```bash
-composer require sebastiaanluca/laravel-auto-morph-map
+composer require leandrodiogenes/laravel-auto-morph-map
 ```
 
 ## How to use

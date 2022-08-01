@@ -18,7 +18,7 @@ class AutobinderCaseTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using the default case(): void
+    public function it_maps_all_models_using_the_default_case(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -41,7 +41,7 @@ class AutobinderCaseTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using snake case(): void
+    public function it_maps_all_models_using_snake_case(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -64,7 +64,7 @@ class AutobinderCaseTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using slug case(): void
+    public function it_maps_all_models_using_slug_case(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -87,7 +87,7 @@ class AutobinderCaseTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using camel case(): void
+    public function it_maps_all_models_using_camel_case(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -110,7 +110,7 @@ class AutobinderCaseTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using studly case(): void
+    public function it_maps_all_models_using_studly_case(): void
     {
         $relation = $this->getMockedRelation();
 

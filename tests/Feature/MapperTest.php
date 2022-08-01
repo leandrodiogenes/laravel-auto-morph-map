@@ -17,7 +17,7 @@ class MapperTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models(): void
+    public function it_maps_all_models(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -38,7 +38,7 @@ class MapperTest extends TestCase
     /**
      * @test
      */
-    public function it doesnt map existing models(): void
+    public function it_doesnt_map_existing_models(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -62,7 +62,7 @@ class MapperTest extends TestCase
     /**
      * @test
      */
-    public function it returns all models(): void
+    public function it_returns_all_models(): void
     {
         $models = app(Mapper::class)->getModels();
 
@@ -80,7 +80,7 @@ class MapperTest extends TestCase
     /**
      * @test
      */
-    public function it returns the cache path(): void
+    public function it_returns_the_cache_path(): void
     {
         $path = app(Mapper::class)->getCachePath();
 

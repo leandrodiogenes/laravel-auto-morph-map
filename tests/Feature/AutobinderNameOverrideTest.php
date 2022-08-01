@@ -20,7 +20,7 @@ class AutobinderNameOverrideTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using the user defined method(): void
+    public function it_maps_all_models_using_the_user_defined_method(): void
     {
         $relation = $this->getMockedRelation();
 

@@ -17,7 +17,7 @@ class AutobinderCacheTest extends TestCase
     /**
      * @test
      */
-    public function it doesnt read from cache when not cached(): void
+    public function it_doesnt_read_from_cache_when_not_cached(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -38,7 +38,7 @@ class AutobinderCacheTest extends TestCase
     /**
      * @test
      */
-    public function it reads from cache when cached(): void
+    public function it_reads_from_cache_when_cached(): void
     {
         $cache = base_path('bootstrap/cache/morphmap.php');
 

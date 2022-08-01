@@ -18,7 +18,7 @@ class AutobinderNamingTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using the default naming scheme(): void
+    public function it_maps_all_models_using_the_default_naming_scheme(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -41,7 +41,7 @@ class AutobinderNamingTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using the singular table name naming scheme(): void
+    public function it_maps_all_models_using_the_singular_table_name_naming_scheme(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -64,7 +64,7 @@ class AutobinderNamingTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using the table name naming scheme(): void
+    public function it_maps_all_models_using_the_table_name_naming_scheme(): void
     {
         $relation = $this->getMockedRelation();
 
@@ -87,7 +87,7 @@ class AutobinderNamingTest extends TestCase
     /**
      * @test
      */
-    public function it maps all models using the class basename naming scheme(): void
+    public function it_maps_all_models_using_the_class_basename_naming_scheme(): void
     {
         $relation = $this->getMockedRelation();
 
